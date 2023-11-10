@@ -1,0 +1,49 @@
+{
+  "name": "coming-soon",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "start": "vite dev",
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite build && vite preview"
+  },
+  "devDependencies": {
+    "@fontsource/raleway": "^4.5.12",
+    "@mdx-js/mdx": "^2.3.0",
+    "@mdx-js/react": "^2.3.0",
+    "@mdx-js/rollup": "^2.3.0",
+    "@rhildred/vite-plugin-mix": "^0.4.2",
+    "@rollup/plugin-json": "^6.0.0",
+    "@rollup/plugin-node-resolve": "^15.1.0",
+    "@rollup/plugin-replace": "^5.0.2",
+    "@vitejs/plugin-react": "^4.0.1",
+    "cheerio": "*",
+    "cloudflare2express": "^1.0.8",
+    "diy-pwa": "^1.0.56",
+    "express": "^4.18.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-streaming": "^0.3.5",
+    "rollup": "^3.25.3",
+    "supertest": "^6.3.3",
+    "vite": "^4.2.0",
+    "vite-plugin-ssr": "^0.4.98",
+    "vitest": "^0.29.3",
+    "w3-css": "^4.1.0",
+    "workbox-cacheable-response": "^6.5.4",
+    "workbox-routing": "^6.5.4",
+    "workbox-strategies": "^6.5.4"
+  },
+  "io_github_diy-pwa_languages": [
+    {
+      "language": "en",
+      "direction": "ltr"
+    },
+    {
+      "language": "fr",
+      "direction": "ltr"
+    }
+  ]
+}

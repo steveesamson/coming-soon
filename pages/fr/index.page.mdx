@@ -1,0 +1,22 @@
+import 'w3-css/w3.css';
+import '@fontsource/raleway';
+import '../../components/index.css';
+import {DaysLeft} from 'diy-pwa/components';
+export const documentProps = {
+  title: 'Bientôt disponible',
+  description:
+    'Un échafaudage pour une page bientôt avec diy-pwa et vite-plugin-ssr',
+  lang: 'fr',
+  dir: 'ltr'
+};
+// blank line below!
+
+<header className="w3-display-topleft w3-padding-large w3-xlarge">Logo</header>
+<section className="w3-display-middle">
+  # {documentProps.title}
+  <hr className="w3-border-grey" />
+  ## ... dans <DaysLeft readyDate={new Date(Date.now() + 12096e5).toISOString()} /> jours
+</section>
+<footer className="w3-display-bottomleft w3-padding-large">
+  Alimenté par <a href="https://www.w3schools.com/w3css/default.asp" target="_blank"> w3.css</a>
+</footer>
